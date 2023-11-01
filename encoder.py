@@ -24,10 +24,10 @@ def main():
 
         if option == 1:
             user_password = input('Please enter your password to encode: ')
-            encoded = encode(user_password)
+            hidden = encode(user_password)
             print("Your password has been encoded and stored")
         if option == 2:
-            print(f'The encoded password is {encode(user_password)}, and the original password is {decode(encoded)}.\n')
+            print(f'The encoded password is {encode(user_password)}, and the original password is {decode(hidden)}.\n')
         if option == 3:
             break
 
